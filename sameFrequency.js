@@ -8,7 +8,7 @@ Example of using the frequency counter pattern.
 
 function sameFrequency(int1, int2) {
   // Add checks for postive integer requirement and digit counts
-  if (String(int1).lenght !== String(int2).lenght || Math.sign(int1) !== 1 || Math.sign(int2) !== 1) {
+  if (String(int1).length !== String(int2).length || Math.sign(int1) !== 1 || Math.sign(int2) !== 1) {
     return false;
   }
 
