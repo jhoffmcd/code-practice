@@ -1,5 +1,5 @@
 const { performance } = require('perf_hooks')
-const timing = require('./timing')
+const timing = require('../timing')
 
 // O(n)
 function addUpTo1(n) {
